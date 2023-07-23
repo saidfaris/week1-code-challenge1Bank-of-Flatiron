@@ -1,71 +1,36 @@
-# Getting Started with Create React App
+My Bank App
+My Bank App is a simple React application that allows users to view a list of their recent bank transactions and perform basic operations such as adding new transactions and filtering transactions by description.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+View a table of all transactions with date, category, description, and amount.
+Add new transactions using a form.
+Filter transactions by typing into the search bar. Only transactions with descriptions matching the search term will be shown in the table.
+Project Setup
+To set up the project, follow these steps:
 
-## Available Scripts
+Clone the repository to your local machine.
+Install the required dependencies by running npm install.
+Create a db.json file and populate it with transaction data. The format of the JSON data should be an array of objects, where each object represents a transaction with properties like date, category, description, and amount.
+Run the JSON server by executing json-server --watch db.json. The server will provide the data for the application to fetch and display.
+How to Run
+To run the application, use the command npm start. This will start the development server, and the app will be accessible at http://localhost:3000 in your web browser.
 
-In the project directory, you can run:
+Usage
+Upon launching the app, you will see a table displaying all your transactions. You can use the search bar to filter transactions by description, and the table will update in real-time as you type.
 
-### `npm start`
+To add a new transaction, simply fill out the form with the appropriate date, category, description, and amount, and click the "Add Transaction" button. The new transaction will be added to the table instantly without the need to persist it to the backend.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To delete a transaction, click the "Delete" button in the corresponding row, and the transaction will be removed from the table.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Dependencies
+This project uses the following dependencies:
 
-### `npm test`
+React: A JavaScript library for building user interfaces.
+Axios: A popular library for making HTTP requests.
+JSON Server: A tool to create a fake REST API for development and testing purposes.
+React Loader Spinner: A library for displaying loading spinners.
+Tests
+To run the tests, use the command npm test. The tests ensure that the components are rendering correctly and that basic functionality is working as expected.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# week1-code-challenge1Bank-of-Flatiron
+Contributing
+Contributions to this project are welcome! If you find any bugs or have ideas for improvements, please feel free to open an issue or submit a pull request.

@@ -1,21 +1,21 @@
 body{
-  background-image: url('./components/ffflux.svg');
+  background-color: aqua;
 }
 
 table {
   width: 80%;
   border-collapse: collapse;
-  background-color: #c4f0c6;
+  background-color: #e4c4f0;
 }
 
 th, td {
-  border: 1px solid #3e8e41;
+  border: 1px solid #d60f5181;
   padding: 8px;
   text-align: left;
 }
 
 th {
-  background-color: #39c03d;
+  background-color: #d10debf9;
 }
 
 .form-div {
@@ -27,8 +27,7 @@ th {
   align-items: center;
   justify-content: center;
   width: 300px;
-  background-color: #3ce241;
-  background-image: url('./components/rrrainbow.svg');
+  background-color: #e80f0f;
   border-radius: 10px;
   }
   
@@ -71,7 +70,7 @@ form {
   }
   
   form button:hover {
-  background-color: #3e8e41;
+  background-color: #f9e60c;
   }
   
   input[type="text"]{

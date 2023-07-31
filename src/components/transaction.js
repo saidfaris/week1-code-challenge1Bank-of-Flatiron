@@ -8,7 +8,7 @@ function Trans() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/component/db.json') 
+    fetch('https://api.npoint.io/1d257dbc42d6c7fa8c3c')
       .then((res) => res.json())
       .then((data) => {
         setTransactions(data.transactions);
